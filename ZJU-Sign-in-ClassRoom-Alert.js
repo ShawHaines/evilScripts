@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         浙江大学智云课堂签到提示 ZJU Sign-in ClassRoom Alert
 // @namespace    https://github.com/ShawHaines/evilScripts/
-// @version      0.1
+// @version      0.2
 // @description  search through the translated subtitles for specified key words in ZJU classroom(浙江大学智云课堂). Sends alert to you if it appears. if you are using chrome (or Edge with chrome core), allow `media autoplay` in settings in order to hear the alarm.
 // @author       Shaw Haines
 // @license      MIT
 // @match        *://livingroom.cmc.zju.edu.cn/*
 // @match        *://classroom.zju.edu.cn/*
 // @grant        none
-// @updateURL    https://github.com/ShawHaines/evilScripts/ZJU-Sign-in-ClassRoom-Alert.js
+// @supportURL    https://github.com/ShawHaines/evilScripts/
 // @run-at       document-end
 // ==/UserScript==
 
