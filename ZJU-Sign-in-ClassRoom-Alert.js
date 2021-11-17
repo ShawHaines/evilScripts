@@ -8,7 +8,8 @@
 // @match        *://livingroom.cmc.zju.edu.cn/*
 // @match        *://classroom.zju.edu.cn/*
 // @grant        none
-// @supportURL    https://github.com/ShawHaines/evilScripts/
+// @supportURL   https://github.com/ShawHaines/evilScripts/
+// @updateURL    https://raw.githubusercontent.com/ShawHaines/evilScripts/main/ZJU-Sign-in-ClassRoom-Alert.js
 // @run-at       document-end
 // ==/UserScript==
 
