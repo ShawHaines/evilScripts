@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         浙江大学智云课堂签到提示 ZJU Sign-in ClassRoom Alert
 // @namespace    https://github.com/ShawHaines/evilScripts/
-// @version      0.2
+// @version      0.2.1
 // @description  search through the translated subtitles for specified key words in ZJU classroom(浙江大学智云课堂). Sends alert to you if it appears. if you are using chrome (or Edge with chrome core), allow `media autoplay` in settings in order to hear the alarm.
 // @author       Shaw Haines
 // @license      MIT
@@ -26,7 +26,8 @@
         };
         listen(){
             if (this.queryString===undefined) return 0;
-            let a=document.querySelectorAll(".trans-item");
+            // FIXME: the class of subtitles in live streaming and playback differ.
+            let a=document.querySelectorAll(".trans-item,.video-trans-item");
             var newLength=a.length;
             if (newLength>this.oldLength){
                 for (let i=this.oldLength;i<newLength;i++){
