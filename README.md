@@ -31,16 +31,13 @@ Navigate to the folder containing the scripts, simply type
 
 Fill in your list of username and password in the **local** copy of [nhd_password.txt](./NexusHD_sign_in/nhd_password.txt)
 
-Format specification: 
-* In each line, `username:password` (separated by half-width colon and nothing else)
-* File ends with an empty line.
+Format specification: In each line, `username:password` (separated by half-width colon and nothing else)
 
 example:
 
 ```
 ZhaohuiWu:123456
 PeppaPig:123456
-
 ```
 
 Run

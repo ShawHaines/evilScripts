@@ -1,3 +1,4 @@
+#!/bin/sh
 # cc98_curl.sh
 # Automatically helps you sign in to CC98 with your given username and password
 # usage: cc98_curl.sh username password

@@ -1,3 +1,4 @@
+#!/bin/sh
 # nhd_curl.sh
 # Automatically helps you sign in to NexusHD with your given username and password
 # usage: nhd_curl.sh username password
