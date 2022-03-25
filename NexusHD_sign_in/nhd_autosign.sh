@@ -8,6 +8,6 @@ pwfile="nhd_password.txt"
 while IFS=: read -r username password
 do
     # printf 'Username: %s password: %s\n' "$username" "$password"
-    echo "$username" "$password"
+    # echo "$username" "$password"
     ./nhd_curl.sh $username $password
 done <"$pwfile"
