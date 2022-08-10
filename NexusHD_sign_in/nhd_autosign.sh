@@ -1,4 +1,4 @@
-#!/bin.sh
+#!/bin/sh
 # nhd_autosign.sh
 # Reads username and password from a list
 # and sign in for NexusHD.
